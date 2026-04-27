@@ -4,7 +4,7 @@ import yaml
 config = edict()
 config.LOG_DIR = ''
 config.EXP_NAME = ''
-config.DEVICE = 'cuda:0'
+config.DEVICE = 'cpu'
 
 config.DETECTOR = edict()
 config.DETECTOR.PRETRAINED = ''
